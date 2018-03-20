@@ -149,8 +149,8 @@ public class formFastFood extends javax.swing.JFrame {
         tax=total*.13;
         total2=tax+total;
         DecimalFormat x= new DecimalFormat ("###.##");
-        totalOutput.setText("$" + x.format (total));
-        taxOutput.setText("$" + x.format (tax));
+        totalOutput.setText("$" + x.format(total));
+        taxOutput.setText("$" + x.format(tax));
         finalOutput.setText("$" + x.format(total2));
     }//GEN-LAST:event_jButton1ActionPerformed
 
